@@ -47,20 +47,6 @@ public class Dodecaedro extends Formas{
             opc = scan.next();
             if (opc.equalsIgnoreCase("n")) flag = false;
         }
-//        System.out.println("Encerrando o sistema...");
     }
 
-//    public void calcularDodecaedro(){
-//
-//        setAreaTotal((3 * Math.sqrt(25 + (10* Math.sqrt((5*getAresta() * 2)))) ));
-//
-//        System.out.println("Área total do Dodecaedro: " + String.format("%.3f",getAreaTotal())  + " cm²");
-//    }
-
-//    public void calcularVolumeDodecaedro(){
-//
-//        setAreaTotal((15 + (7* (Math.sqrt(5)) ) * (Math.pow(getAresta(),3))));
-//
-//        System.out.println("Volume do Dodecaedro: " + String.format("%.3f", getAreaTotal()) + " cm³");
-//    }
 }

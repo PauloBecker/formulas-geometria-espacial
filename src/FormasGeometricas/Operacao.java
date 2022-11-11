@@ -1,20 +1,13 @@
 package FormasGeometricas;
 
-import FormasGeometricas.Cubo;
-import FormasGeometricas.Dodecaedro;
-
 import java.util.Scanner;
 
 public class Operacao {
-
     Scanner scan = new Scanner(System.in);
     private int opc = -1;
-
     private String opc2;
     private boolean flag = true;
-
     Cubo cubo = new Cubo();
-
     Dodecaedro dodecaedro = new Dodecaedro();
 
     Tetraedro tetraedro = new Tetraedro();
